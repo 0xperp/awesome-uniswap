@@ -4,7 +4,7 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 ## Implementations
 ### Uniswap V1
 
-## Uniswap V2
+### Uniswap V2
 
 ### Uniswap V3
 [awesome-uniswap-v3](https://github.com/GammaStrategies/awesome-uniswap-v3)
@@ -32,6 +32,6 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 
 ## Papers and Research
 
-### Uniswap Beyond AMMs
+## Uniswap Beyond AMMs
 
 ## Glossary
