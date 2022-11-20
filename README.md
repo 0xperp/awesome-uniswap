@@ -15,8 +15,19 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 
 ## Implementations
 ### Uniswap V1
+- [Uniswap v1 App (Pre-Alpha)](https://haydenadams.github.io/uniswap-prealpha/)
+- [Uniswap v1 App (Retro)](https://haydenadams.github.io/uniswap-retro/)
+- [Uniswap V1 Contracts](https://github.com/Uniswap/v1-contracts)
+- Uniswap V1 Research
+    - [On Path Independence](https://vitalik.ca/general/2017/06/22/marketmakers.html)
+    - [Let's run on-chain exchanges like prediction markets](https://www.reddit.com/r/ethereum/comments/55m04x/lets_run_onchain_decentralized_exchanges_the_way/)
 
 ### Uniswap V2
+- [Uniswap V2 Core](https://github.com/Uniswap/v2-core)
+- [Uniswap V2 Periphery](https://github.com/Uniswap/v2-periphery)
+- [Uniswap V2 SDK](https://github.com/Uniswap/v2-sdk)
+- [Uniswap V2 Subgraph](https://github.com/Uniswap/v2-subgraph)
+- [Uniswap V2 Analytics](https://v2.info.uniswap.org/#/)
 
 ### Uniswap V3
 - [Uniswap v3 Whitepaper](https://uniswap.org/whitepaper-v3.pdf) - Uniswap v3 Whitepaper
@@ -57,12 +68,17 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 - [Calculating the Expected Value of the Impermanent Loss in Uniswap](https://lambert-guillaume.medium.com/an-analysis-of-the-expected-value-of-the-impermanent-loss-in-uniswap-bfbfebbefed2) - Analysis of the expected impermanent loss of a one tick position on Uniswap v3
 - [Single-Position Impermanent Loss of A Single Transaction for Uniswap V3](https://medium.com/@PlanetHunter/impermanent-loss-calculation-for-uniswap-v3-c753dcfae16d) - Derivation of impermanent loss formulas for Uniswap v3 positions
 - [Understand LP risks: use Effective Gain/Loss, not Impermanent Loss](https://medium.com/@gui.lamacie/understand-lp-risks-use-effective-gain-loss-not-impermanent-loss-34d1450231a5) - Proposes the use of "effective loss", a measure of net profit that assumes that initial position was 100% USD based, rather than the ratio of tokens you deposit into the pool (as you had to purchase the tokens that you LP).
+- [Pintail: the First look at Impermanent Loss](https://pintail.medium.com/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2)
 
 ### Arbitrage and MEV
 - [Uniswap on JIT Liquidity](https://uniswap.org/blog/jit-liquidity)
 
 ### Governance
 - [Governance Forum](https://gov.uniswap.org)
+- [sybil.org ](https://sybil.org/#/delegates/uniswap) – open source governance tool for discovering delegates
+- [@govbot_uniswap](https://twitter.com/govbot_uniswap) – twitter governance bot. Tweets out about activity on all platforms.
+- [snapshot.org](https://snapshot.org/#/uniswap) –  offchain uniswap governance
+- [messari.io](https://messari.io/governor/proposal-tracker) –  proposal tracker
 
 ### Uniswap Token ($UNI)
 - [Introducing UNI](https://uniswap.org/blog/uni)
@@ -105,8 +121,8 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 
 ### Analytics and Dashboards
 - [Uniswap Analytics](https://info.uniswap.org/#/) - Uniswap Analytics
-- [Uniswap v3 volume and fees collected](https://duneanalytics.com/gammastrategies/Uniswap-v3-Volume-and-Fees-Collected) - Dune dashboard containing data for volume and fees collected for Uniswap v3 by [Gamma Strategies](https://twitter.com/GammaStrategies?s=20)
-- [Uniswap v2-to-v3 ramp up](https://duneanalytics.com/msilb7/Uniswap-V2-vs-V3-Ramp-Up) - Dune dashboard comparing Uniswap v2 and v3 by [Michael Silberling](https://twitter.com/msilb7)
+- [Uniswap V2 Analytics](https://v2.info.uniswap.org/#/)
+- [Uniswap v3 volume and fees collected](https://duneanalytics.com/gammastrategies/Uniswap-v3-Volume-and-Fees-Collected) - Dune dashboard containing data for volume and fees collected for Uniswap v3 by [Gamma Strategies](https://twitter.com/GammaStrategies?s=20)Silberling](https://twitter.com/msilb7)
 - [Uniswap v3 usage](https://duneanalytics.com/msilb7/Uniswap-v3-Competitive-Analysis) - Dune dashboard with Uniswap v3 Trading Usage, Growth, and Competitive Analysis by [Michael Silberling](https://twitter.com/msilb7)
 - [Parsec Finance](https://app.parsec.finance/) - Uniswap v3 specific features such as historical pool depth and positions overview
 
@@ -143,6 +159,10 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 
 ### Integrating 
 - [Building your first Uniswap Integration](https://uniswap.org/blog/your-first-uniswap-integration)
+- [simple-uniswap-sdk](https://github.com/uniswap-integration/simple-uniswap-sdk) – community maintained open source sdk, supports routing, prices, etc
+- [Makerdao Uniswap Price Feed (used for collateral pricing)](https://github.com/makerdao/uniswap-price-feed)
+- [Uniswap via Infura](https://blog.infura.io/frontend-dapp-development-2/)
+- [Uniswap via The Graph & GraphQL](https://messari.io/article/retrieving-uniswap-trades-using-the-graph)
 
 ## Papers and Research
 - [Uniswap V3's Alchemy](https://www.nansen.ai/research/uniswap-v3s-alchemy) - An examination of the nascent rise of Uniswap V3, and its implications for the DeFi landscape by Nansen
@@ -170,14 +190,225 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 - [Unifying token and nft swaps](https://uniswap.org/blog/permit2-and-universal-router)
 
 ## Glossary
-- Swap
-- Liquidity Provider (LP)
-- Concenntrated Liquidity
-- ERC20
-- ERC721
-- Impermanent Loss
-- TWAP Oracles
-- Just in Time Liquidity
+### Automated Market Maker
+
+An automated market maker is a smart contract on Ethereum that holds liquidity reserves. Users can trade against these reserves at prices determined by a fixed formula. Anyone may contribute liquidity to these smart contracts, earning pro-rata trading fees in return.
+
+### Asset
+
+While a digital asset can take many forms, the Uniswap Protocol supports ERC-20 token pairs, and represents a position in the form of an NFT (ERC-721).
+
+### Concentrated Liquidity
+
+Liquidity that is allocated within a determined price range.
+
+### Constant Product Formula
+
+The automated market making algorithm used by Uniswap. In v1 and v2, this was x\*y=k.
+
+### Core
+
+Smart contracts that are considered foundational, and are essential for Uniswap to exist. Upgrading to a new version of core would require deploying an entirely new set of smart contracts on Ethereum and would be considered a new version of the Uniswap Protocol.
+
+### ERC20
+
+ERC20 tokens are fungible tokens on Ethereum. Uniswap supports all standard ERC20 implementations.
+
+### Factory
+
+A smart contract that deploys a unique smart contract for any ERC20/ERC20 trading pair.
+
+### Flash Swap
+
+A trade that uses the tokens purchased before paying for them.
+
+### Invariant
+
+The “k” value in the constant product formula X\*Y=K
+
+### Liquidity Provider / "LP"
+
+A liquidity provider is someone who deposits ERC20 tokens into a given liquidity pool. Liquidity providers take on price risk and are compensated with trading fees.
+
+### Liquidity
+
+Digital assets that are stored in a Uniswap pool contract, and are able to be traded against by traders.
+
+### Mid Price
+
+The price between the available buy and sell prices. In Uniswap V1 and V2, this is the ratio of the two ERC20 token reserves. In V3, this is the ratio of the two ERC20 token reserves available within the current active tick.
+
+### Observation
+
+An instance of historical price and liquidity data of a given pair.
+
+### Pair
+
+A smart contract deployed from a Uniswap V1 or V2 factory contract that enables trading between two ERC20 tokens. Pair contracts are now called Pools in V3.
+
+### Periphery
+
+External smart contracts that are useful, but not required for Uniswap to exist. New periphery contracts can always be deployed without migrating liquidity.
+
+### Pool
+
+A contract deployed by the V3 factory that pairs two ERC-20 assets. Different pools may have different fees despite containing the same token pair. Pools were previously called Pairs before the introduction of multiple fee options.
+
+### Position
+
+An instance of liquidity defined by upper and lower tick. And the amount of liquidity contained therein.
+
+### Price Impact
+
+The difference between the mid-price and the execution price of a trade.
+
+### Protocol Fees
+
+Fees that are rewarded to the protocol itself, rather than to liquidity providers.
+
+### Range
+
+Any interval between two ticks of any distance.
+
+### Range Order
+
+An approximation of a limit order, in which a single asset is provided as liquidity across a specified range, and is continuously swapped to the destination address as the spot price crosses the range.
+
+### Reserves
+
+The liquidity available within a pair. This was more commonly referenced before concentrated liquidity was introduced.
+
+### Slippage
+
+The amount the price moves in a trading pair between when a transaction is submitted and when it is executed.
+
+### Spot Price
+
+The current price of a token relative to another within a given pair.
+
+### Swap Fees
+
+The fees collected upon swapping which are rewarded to liquidity providers.
+
+### Tick Interval
+
+The price space between two nearest ticks.
+
+### Tick
+
+The boundaries between discrete areas in price space.### Automated Market Maker
+
+An automated market maker is a smart contract on Ethereum that holds liquidity reserves. Users can trade against these reserves at prices determined by a fixed formula. Anyone may contribute liquidity to these smart contracts, earning pro-rata trading fees in return.
+
+### Asset
+
+While a digital asset can take many forms, the Uniswap Protocol supports ERC-20 token pairs, and represents a position in the form of an NFT (ERC-721).
+
+### Concentrated Liquidity
+
+Liquidity that is allocated within a determined price range.
+
+### Constant Product Formula
+
+The automated market making algorithm used by Uniswap. In v1 and v2, this was x\*y=k.
+
+### Core
+
+Smart contracts that are considered foundational, and are essential for Uniswap to exist. Upgrading to a new version of core would require deploying an entirely new set of smart contracts on Ethereum and would be considered a new version of the Uniswap Protocol.
+
+### ERC20
+
+ERC20 tokens are fungible tokens on Ethereum. Uniswap supports all standard ERC20 implementations.
+
+### Factory
+
+A smart contract that deploys a unique smart contract for any ERC20/ERC20 trading pair.
+
+### Flash Swap
+
+A trade that uses the tokens purchased before paying for them.
+
+### Invariant
+
+The “k” value in the constant product formula X\*Y=K
+
+### Liquidity Provider / "LP"
+
+A liquidity provider is someone who deposits ERC20 tokens into a given liquidity pool. Liquidity providers take on price risk and are compensated with trading fees.
+
+### Liquidity
+
+Digital assets that are stored in a Uniswap pool contract, and are able to be traded against by traders.
+
+### Mid Price
+
+The price between the available buy and sell prices. In Uniswap V1 and V2, this is the ratio of the two ERC20 token reserves. In V3, this is the ratio of the two ERC20 token reserves available within the current active tick.
+
+### Observation
+
+An instance of historical price and liquidity data of a given pair.
+
+### Pair
+
+A smart contract deployed from a Uniswap V1 or V2 factory contract that enables trading between two ERC20 tokens. Pair contracts are now called Pools in V3.
+
+### Periphery
+
+External smart contracts that are useful, but not required for Uniswap to exist. New periphery contracts can always be deployed without migrating liquidity.
+
+### Pool
+
+A contract deployed by the V3 factory that pairs two ERC-20 assets. Different pools may have different fees despite containing the same token pair. Pools were previously called Pairs before the introduction of multiple fee options.
+
+### Position
+
+An instance of liquidity defined by upper and lower tick. And the amount of liquidity contained therein.
+
+### Price Impact
+
+The difference between the mid-price and the execution price of a trade.
+
+### Protocol Fees
+
+Fees that are rewarded to the protocol itself, rather than to liquidity providers.
+
+### Range
+
+Any interval between two ticks of any distance.
+
+### Range Order
+
+An approximation of a limit order, in which a single asset is provided as liquidity across a specified range, and is continuously swapped to the destination address as the spot price crosses the range.
+
+### Reserves
+
+The liquidity available within a pair. This was more commonly referenced before concentrated liquidity was introduced.
+
+### Slippage
+
+The amount the price moves in a trading pair between when a transaction is submitted and when it is executed.
+
+### Spot Price
+
+The current price of a token relative to another within a given pair.
+
+### Swap Fees
+
+The fees collected upon swapping which are rewarded to liquidity providers.
+
+### Tick Interval
+
+The price space between two nearest ticks.
+
+### Tick
+
+The boundaries between discrete areas in price space.
+
+### Impermanent Loss
+
+### TWAP Oracles
+
+### Just in Time Liquidity
 
 ## Other Resources 
 - [awesome-uniswap-v3](https://github.com/GammaStrategies/awesome-uniswap-v3)
