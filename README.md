@@ -46,17 +46,25 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 - [Uniswap v3 SDK](https://github.com/Uniswap/uniswap-v3-sdk) - Official SDK for building applications on top of Uniswap v3
 - [Uniswap library](https://github.com/Uniswap/uniswap-lib) - Solidity libraries that are shared across Uniswap contracts. This package focuses on safety and execution gas efficiency.
 
+To learn more about alternative AMM designs and research refer to [awesome-amm](https://github.com/0xperp/awesome-amm)
+
 ## Specific Topics
 ### Swapping 
 - [Swap](https://docs.uniswap.org/concepts/introduction/swaps) - Official Uniswap guide on swaps
 
 ### Liquidity Providing
 - [Liquidity provider & Migration User Guide](https://docs.uniswap.org/concepts/introduction/liquidity-user-guide) - Official step-by-step guide on providing liquidity on v3, and migration of liquidity from Uniswap v2 to v3
+- [How to become a liquidity provider](https://thedefiant.io/how-to-become-liquidity-provider-uniswap)
 
 ### Oracles
 - [Uniswap TWAP oracles in Proof of Stake](https://uniswap.org/blog/uniswap-v3-oracles)
+- [Uniswap Oracle Cost to Attack Simulator](https://www.euler.finance/blog/uniswap-oracle-attack-simulator)
+- [Collection of TWAMM (Time weighted AMM) Research](https://mirror.xyz/0x70626a.eth)
 
 ### Order Routing
+- [Introducing the Auto Router](https://uniswap.org/blog/auto-router)
+- [Auto Router V2](https://uniswap.org/blog/auto-router-v2)
+- [Permit2 and the Universal Router](https://uniswap.org/blog/permit2-and-universal-router)
 
 ### Impermanent Loss
 - [Impermanent Loss in Uniswap V3](https://medium.com/auditless/impermanent-loss-in-uniswap-v3-6c7161d3b445) - Auditless' research on Impermanent Loss
@@ -71,7 +79,10 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 - [Pintail: the First look at Impermanent Loss](https://pintail.medium.com/uniswap-a-good-deal-for-liquidity-providers-104c0b6816f2)
 
 ### Arbitrage and MEV
+- Awesome MEV Resource: [1](https://github.com/0xalpharush/awesome-MEV-resources), [2](https://github.com/0xemperor/Awesome-MEV), [3](https://github.com/HilliamT/awesome-mev-searching)
 - [Uniswap on JIT Liquidity](https://uniswap.org/blog/jit-liquidity)
+- [Uniswap JIT Activity](https://dune.com/ChainsightAnalytics/Uniswap-v3-Just-in-Time-(JIT)-Liquidity-MEV)
+- [Modern MEV Sandwhichs and Ethereum Routers](https://mirror.xyz/totlsota.eth/9JaNkZ1XQfQD6Y79aLYHC_kb_dSBoJ2JYiag5BuGGM8?s=09)
 
 ### Governance
 - [Governance Forum](https://gov.uniswap.org)
@@ -79,13 +90,14 @@ Collection of everything Uniswap (yes v1, v2, v3 and every other resource)
 - [@govbot_uniswap](https://twitter.com/govbot_uniswap) – twitter governance bot. Tweets out about activity on all platforms.
 - [snapshot.org](https://snapshot.org/#/uniswap) –  offchain uniswap governance
 - [messari.io](https://messari.io/governor/proposal-tracker) –  proposal tracker
+- [Uniswap Fee Switch Report](https://gov.uniswap.org/t/alastor-fee-switch-report/18020)
 
 ### Uniswap Token ($UNI)
 - [Introducing UNI](https://uniswap.org/blog/uni)
 
 ## Tools
 ### Screeners
-= [Dextools](https://www.dextools.io/app/)
+- [Dextools](https://www.dextools.io/app/)
 
 ### Liquidity Providing
 - [Charm](https://charm.fi/)
